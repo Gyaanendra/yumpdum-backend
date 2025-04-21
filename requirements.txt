@@ -4,3 +4,4 @@ pydantic
 python-dotenv
 gunicorn
 flask_cors
+werkzeug

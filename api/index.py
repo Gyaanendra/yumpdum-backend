@@ -1,12 +1,26 @@
+# api/index.py
 from flask import Flask, jsonify, request
 import json
 import os
+from pathlib import Path
 
 app = Flask(__name__)
 
-# Load the restaurant data
-with open('./restaurants_data.json', 'r') as file:
-    restaurants = json.load(file)
+# Load the restaurant data - adjust the path for Vercel
+# In Vercel, the working directory is different
+base_dir = Path(__file__).resolve().parent.parent
+json_path = base_dir / "restaurants_data.json"
+
+try:
+    with open(json_path, 'r') as file:
+        restaurants = json.load(file)
+except FileNotFoundError:
+    # Fallback - try loading from the api directory
+    try:
+        with open(Path(__file__).resolve().parent / "restaurants_data.json", 'r') as file:
+            restaurants = json.load(file)
+    except FileNotFoundError:
+        restaurants = []  # Default empty list if file not found
 
 # Helper function to find a restaurant by ID
 def find_restaurant(restaurant_id):
@@ -15,10 +29,22 @@ def find_restaurant(restaurant_id):
             return restaurant
     return None
 
+@app.route('/', methods=['GET'])
+def home():
+    return jsonify({
+        "message": "Welcome to the Restaurant API",
+        "endpoints": [
+            "/api/restaurants",
+            "/api/restaurants/{id}",
+            "/api/restaurants/{id}/reviews",
+            "/api/restaurants/{id}/menu",
+            "/api/restaurants/search?q={query}"
+        ]
+    })
+
 # Route to get all restaurants
 @app.route('/api/restaurants', methods=['GET'])
 def get_restaurants():
-    # Optional query parameters for filtering
     name_filter = request.args.get('name')
     
     if name_filter:
@@ -64,6 +90,7 @@ def search_restaurants():
     
     return jsonify(results)
 
+# For local testing
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
     app.run(debug=True, host='0.0.0.0', port=port)
