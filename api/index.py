@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 
 # Load the restaurant data
-with open('restaurants_data.json', 'r') as file:
+with open('./restaurants_data.json', 'r') as file:
     restaurants = json.load(file)
 
 # Helper function to find a restaurant by ID
