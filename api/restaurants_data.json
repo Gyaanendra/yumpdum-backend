@@ -1,0 +1,343 @@
+[
+  {
+    "restaurant_id": 1,
+    "name": "The Olive Bistro",
+    "description": "Nestled in the heart of the city, The Olive Bistro offers a delightful escape into Mediterranean cuisine. With a warm, rustic ambiance featuring exposed brick walls and wooden accents, this cozy restaurant invites guests to savor fresh, vibrant dishes crafted with care. The menu highlights wood-fired pizzas with crispy, thin crusts, homemade pastas tossed in rich, flavorful sauces, and crisp salads bursting with seasonal ingredients. Signature dishes include the classic Margherita pizza, topped with ripe tomatoes and creamy mozzarella, and the creamy fettuccine Alfredo, a crowd favorite. The bistro prides itself on using locally sourced produce and imported olive oils to ensure authenticity and quality. Guests can pair their meals with a curated selection of wines from Italy, Greece, and Spain, or enjoy a refreshing house-made lemonade infused with fresh herbs. The attentive staff creates a welcoming atmosphere, making it ideal for romantic dinners, family gatherings, or casual lunches. The Olive Bistro also offers outdoor seating on a charming patio adorned with string lights, perfect for al fresco dining under the stars. Whether you're craving a hearty meal or a light bite, this gem delivers an unforgettable dining experience that celebrates the flavors of the Mediterranean. With its commitment to sustainability and community, The Olive Bistro supports local farmers and hosts monthly events like wine tastings and live acoustic music, fostering a sense of connection among patrons. A visit here promises not just a meal, but a journey to the sun-drenched coasts of the Mediterranean, right in your neighborhood.",
+    "thumbnail": "https://res.cloudinary.com/dsziw3o2b/image/upload/v1745256761/cld-sample-4.jpg",
+    "phone_number": "(555) 123-4567",
+    "location": "123 Elm Street, Downtown, Cityville, CA 90210",
+    "image_links": [
+      "https://res.cloudinary.com/dsziw3o2b/image/upload/v1745258007/nick-hillier-xBXF9pr6LQo-unsplash_jwskiz.jpg",
+      "https://res.cloudinary.com/dsziw3o2b/image/upload/v1745257992/ali-inay-y3aP9oo9Pjc-unsplash_xq25xx.jpg",
+      "https://res.cloudinary.com/dsziw3o2b/image/upload/v1745257977/alex-haney-CAhjZmVk5H4-unsplash_vn3dyu.jpg"
+    ],
+    "total_reviews": 142,
+    "user_reviews": [
+      {
+        "user_id": "u123",
+        "username": "FoodieJane",
+        "review": "Loved the Margherita pizza! Fresh ingredients and great service.",
+        "stars": 5
+      },
+      {
+        "user_id": "u124",
+        "username": "TasteTester",
+        "review": "Pasta was a bit overcooked, but the ambiance was nice.",
+        "stars": 3
+      },
+      {
+        "user_id": "u125",
+        "username": "GourmetGuru",
+        "review": "Amazing hummus and pita bread. Will come back!",
+        "stars": 4
+      }
+    ],
+    "video_links": [
+      {
+        "link": "https://res.cloudinary.com/dsziw3o2b/video/upload/v1745259138/854750-hd_1920_1080_25fps_lo5aqt.mp4",
+        "title": "A Tour of The Olive Bistro",
+        "subtitle": "Explore our cozy dining space and signature dishes."
+      },
+      {
+        "link": "https://res.cloudinary.com/dsziw3o2b/video/upload/v1745259116/3768941-hd_1920_1080_25fps_kv2lao.mp4",
+        "title": "Meet Our Chef",
+        "subtitle": "Learn about our Mediterranean-inspired menu."
+      }
+    ],
+    "menu_image_link": "https://res.cloudinary.com/dsziw3o2b/image/upload/v1745259317/download_8_kwlcgq.jpg",
+    "menu_pdf_link": "https://example.com/pdfs/olive_bistro_menu.pdf",
+    "order": {
+      "menu_items": [
+        {
+          "item_id": "m101",
+          "name": "Margherita Pizza",
+          "price": 12.99,
+          "category": "Main",
+          "image_link": "https://res.cloudinary.com/dsziw3o2b/image/upload/v1745258756/360_F_27579652_tM7V4fZBBw8RLmZo0Bi8WhtO2EosTRFD_hzqs3b.jpg"
+        },
+        {
+          "item_id": "m102",
+          "name": "Greek Salad",
+          "price": 8.99,
+          "category": "Appetizer",
+          "image_link": "https://res.cloudinary.com/dsziw3o2b/image/upload/v1745258893/download_7_ti13tv.jpg"
+        },
+        {
+          "item_id": "m103",
+          "name": "Tiramisu",
+          "price": 6.50,
+          "category": "Dessert",
+          "image_link": "https://res.cloudinary.com/dsziw3o2b/image/upload/v1745258596/download_2_hotpsn.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "restaurant_id": 2,
+    "name": "Spicy Lotus",
+    "description": "Spicy Lotus brings the vibrant, bold flavors of Thailand to the heart of Cityville. This authentic Thai restaurant is a haven for spice lovers and culinary adventurers alike, offering a menu packed with fragrant curries, stir-fried noodle dishes, and refreshing desserts. The sleek, modern interior, adorned with Thai artwork and soft lighting, creates an inviting atmosphere for both intimate dinners and lively group gatherings. Signature dishes include the fiery green curry, bursting with coconut milk and fresh chilies, and the perfectly balanced Pad Thai, featuring tender shrimp and crunchy peanuts. Vegetarians and vegans will find plenty of options, with customizable dishes made with fresh tofu and vibrant vegetables. The restaurant’s commitment to authenticity shines through in its use of traditional ingredients like lemongrass, galangal, and kaffir lime leaves, sourced directly from trusted suppliers. Guests can cool off with a sweet Thai iced tea or indulge in the beloved mango sticky rice, a dessert that’s as beautiful as it is delicious. The knowledgeable staff is happy to guide diners through the menu, offering spice level recommendations to suit every palate. Spicy Lotus also features a small bar area with craft cocktails infused with Thai herbs and fruits, adding a modern twist to classic flavors. The restaurant hosts occasional cooking classes, where guests can learn to make their favorite dishes at home. With its dedication to quality, community, and bold flavors, Spicy Lotus is a must-visit for anyone seeking an authentic Thai experience that excites the senses and warms the soul.",
+    "thumbnail": "https://res.cloudinary.com/dsziw3o2b/image/upload/v1745257520/fabrizio-magoni-boaDpmC-_Xo-unsplash_bismkc.jpg",
+    "phone_number": "(555) 987-6543",
+    "location": "456 Oak Avenue, Eastside, Cityville, CA 90210",
+    "image_links": [
+      "https://res.cloudinary.com/dsziw3o2b/image/upload/v1745258012/k8-sWEpcc0Rm0U-unsplash_unqilq.jpg",
+      "https://res.cloudinary.com/dsziw3o2b/image/upload/v1745257983/robert-bye-4UGlx_OXqgs-unsplash_nrsf1d.jpg",
+      "https://res.cloudinary.com/dsziw3o2b/image/upload/v1745257983/robert-bye-4UGlx_OXqgs-unsplash_nrsf1d.jpg"
+    ],
+    "total_reviews": 89,
+    "user_reviews": [
+      {
+        "user_id": "u126",
+        "username": "SpiceLover",
+        "review": "The green curry was fantastic, just the right amount of heat!",
+        "stars": 5
+      },
+      {
+        "user_id": "u127",
+        "username": "NoodleFan",
+        "review": "Pad Thai was good but a bit too sweet for my taste.",
+        "stars": 4
+      }
+    ],
+    "video_links": [
+      {
+        "link": "https://res.cloudinary.com/dsziw3o2b/video/upload/v1745259158/852122-hd_1920_1080_30fps_cwybmn.mp4",
+        "title": "Behind the Scenes",
+        "subtitle": "See how we prepare our signature Thai dishes."
+      }
+    ],
+    "menu_image_link": "https://res.cloudinary.com/dsziw3o2b/image/upload/v1745259317/download_8_kwlcgq.jpg",
+    "menu_pdf_link": "https://example.com/pdfs/spicy_lotus_menu.pdf",
+    "order": {
+      "menu_items": [
+        {
+          "item_id": "m201",
+          "name": "Green Curry",
+          "price": 14.50,
+          "category": "Main",
+          "image_link": "https://res.cloudinary.com/dsziw3o2b/image/upload/v1745258449/istockphoto-161735861-612x612_xiwxhy.jpg"
+        },
+        {
+          "item_id": "m202",
+          "name": "Spring Rolls",
+          "price": 6.99,
+          "category": "Appetizer",
+          "image_link": "https://res.cloudinary.com/dsziw3o2b/image/upload/v1745258760/download_4_tzu8cv.jpg"
+        },
+        {
+          "item_id": "m203",
+          "name": "Mango Sticky Rice",
+          "price": 7.25,
+          "category": "Dessert",
+          "image_link": "https://res.cloudinary.com/dsziw3o2b/image/upload/v1745258602/download_1_jspxsb.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "restaurant_id": 3,
+    "name": "Burger Bonanza",
+    "description": "Burger Bonanza is the ultimate destination for burger enthusiasts, serving up gourmet creations in a fun, laid-back diner setting. Located in the bustling Westside of Cityville, this casual spot is known for its juicy, hand-crafted burgers, crispy fries, and thick, creamy milkshakes that keep patrons coming back for more. The vibrant interior, with retro checkered floors and neon signs, evokes a nostalgic vibe, while the open kitchen lets diners watch the magic happen. The menu boasts a variety of burgers, from the classic bacon cheeseburger piled high with crispy bacon and melted cheddar to inventive options like the spicy jalapeño burger for those who like a kick. Each patty is made from 100% grass-fed beef, grilled to perfection, and served on a toasted brioche bun. Beyond burgers, the restaurant offers hearty sides like sweet potato fries and onion rings, as well as vegetarian options like a flavorful black bean burger. Milkshakes, available in classic flavors like chocolate and vanilla or fun twists like cookies-and-cream, are a highlight, blended with real ice cream for a decadent treat. The friendly staff and quick service make it a great spot for families, friends, or a quick lunch break. Burger Bonanza also caters to the community with weekly trivia nights and a kids’ menu that keeps little ones happy. With its commitment to quality ingredients, bold flavors, and a welcoming atmosphere, Burger Bonanza is more than just a meal—it’s a celebration of comfort food done right, guaranteed to satisfy any craving.",
+    "thumbnail": "https://res.cloudinary.com/dsziw3o2b/image/upload/v1745257546/toa-heftiba-6bKpHAun4d8-unsplash_zvqdwu.jpg",
+    "phone_number": "(555) 321-7890",
+    "location": "789 Maple Boulevard, Westside, Cityville, CA 90210",
+    "image_links": [
+      "https://res.cloudinary.com/dsziw3o2b/image/upload/v1745257999/priscilla-du-preez-W3SEyZODn8U-unsplash_sceoea.jpg",
+      "https://res.cloudinary.com/dsziw3o2b/image/upload/v1745257977/alex-haney-CAhjZmVk5H4-unsplash_vn3dyu.jpg"
+    ],
+    "total_reviews": 205,
+    "user_reviews": [
+      {
+        "user_id": "u128",
+        "username": "BurgerKing",
+        "review": "Best bacon cheeseburger in town! Fries were crispy too.",
+        "stars": 5
+      },
+      {
+        "user_id": "u129",
+        "username": "ShakeSipper",
+        "review": "Milkshake was amazing, but the wait time was long.",
+        "stars": 4
+      },
+      {
+        "user_id": "u130",
+        "username": "FastFoodie",
+        "review": "Decent burgers, but nothing extraordinary.",
+        "stars": 3
+      }
+    ],
+    "video_links": [
+      {
+        "link": "https://res.cloudinary.com/dsziw3o2b/video/upload/v1745259116/3768941-hd_1920_1080_25fps_kv2lao.mp4",
+        "title": "Grilling Perfection",
+        "subtitle": "Watch our chefs craft the ultimate burger."
+      },
+      {
+        "link": "https://res.cloudinary.com/dsziw3o2b/video/upload/v1745259138/854750-hd_1920_1080_25fps_lo5aqt.mp4",
+        "title": "Vibes at Bonanza",
+        "subtitle": "Feel the fun atmosphere of our diner."
+      }
+    ],
+    "menu_image_link": "https://res.cloudinary.com/dsziw3o2b/image/upload/v1745259317/download_8_kwlcgq.jpg",
+    "menu_pdf_link": "https://example.com/pdfs/burger_bonanza_menu.pdf",
+    "order": {
+      "menu_items": [
+        {
+          "item_id": "m301",
+          "name": "Bacon Cheeseburger",
+          "price": 10.99,
+          "category": "Main",
+          "image_link": "https://res.cloudinary.com/dsziw3o2b/image/upload/v1745258904/download_5_jfk8nj.jpg"
+        },
+        {
+          "item_id": "m302",
+          "name": "Sweet Potato Fries",
+          "price": 4.99,
+          "category": "Side",
+          "image_link": "https://res.cloudinary.com/dsziw3o2b/image/upload/v1745258455/istockphoto-161735479-1024x1024_kp218g.jpg"
+        },
+        {
+          "item_id": "m303",
+          "name": "Chocolate Milkshake",
+          "price": 5.50,
+          "category": "Dessert",
+          "image_link": "https://res.cloudinary.com/dsziw3o2b/image/upload/v1745258766/download_3_brlser.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "restaurant_id": 4,
+    "name": "Sushi Haven",
+    "description": "Sushi Haven is a serene retreat for lovers of Japanese cuisine, located in the vibrant Northside of Cityville. This elegant restaurant combines traditional sushi artistry with modern flair, offering an extensive menu of fresh sushi, sashimi, and creative rolls. The minimalist decor, featuring bamboo accents and soft lighting, creates a calming atmosphere perfect for date nights or quiet gatherings. Signature offerings include the Dragon Roll, with eel and avocado, and the delicate Hamachi sashimi, sourced from the finest fish markets. Each dish is crafted with precision, using premium ingredients like sushi-grade tuna and hand-rolled rice. Beyond sushi, the menu features tempura, miso soup, and hearty ramen bowls for those seeking comfort food. Vegetarians can enjoy options like the cucumber-avocado roll or vegetable tempura. The sake and Japanese whiskey selection is thoughtfully curated, complementing the flavors of the cuisine. Sushi Haven’s chefs often host sushi-making classes, allowing guests to learn the art of nigiri and maki. The attentive staff ensures a personalized experience, guiding diners through the menu with expert recommendations. The restaurant also offers a small outdoor zen garden for al fresco dining, complete with koi ponds and lush greenery. Committed to sustainability, Sushi Haven partners with eco-conscious suppliers to minimize its environmental impact. Whether you’re a sushi aficionado or a first-timer, this haven delivers an authentic, memorable experience that celebrates the essence of Japanese culinary tradition. With its blend of tradition, innovation, and warm hospitality, Sushi Haven is a must-visit destination for anyone seeking to explore the delicate flavors and artistry of Japanese cuisine in a tranquil setting.",
+    "thumbnail": "https://res.cloudinary.com/dsziw3o2b/image/upload/v1745257706/kayleigh-harrington-yhn4okt6ci0-unsplash_uy50au.jpg",
+    "phone_number": "(555) 654-3210",
+    "location": "101 Pine Road, Northside, Cityville, CA 90210",
+    "image_links": [
+      "https://res.cloudinary.com/dsziw3o2b/image/upload/v1745258007/nick-hillier-xBXF9pr6LQo-unsplash_jwskiz.jpg",
+      "https://res.cloudinary.com/dsziw3o2b/image/upload/v1745258012/k8-sWEpcc0Rm0U-unsplash_unqilq.jpg",
+      "https://res.cloudinary.com/dsziw3o2b/image/upload/v1745257992/ali-inay-y3aP9oo9Pjc-unsplash_xq25xx.jpg"
+    ],
+    "total_reviews": 176,
+    "user_reviews": [
+      {
+        "user_id": "u131",
+        "username": "SushiSam",
+        "review": "The Dragon Roll was out of this world! Fresh and flavorful.",
+        "stars": 5
+      },
+      {
+        "user_id": "u132",
+        "username": "RawFishFan",
+        "review": "Sashimi was good, but the wait was a bit long.",
+        "stars": 4
+      }
+    ],
+    "video_links": [
+      {
+        "link": "https://res.cloudinary.com/dsziw3o2b/video/upload/v1745259158/852122-hd_1920_1080_30fps_cwybmn.mp4",
+        "title": "Sushi Artistry",
+        "subtitle": "Watch our chefs create stunning rolls."
+      }
+    ],
+    "menu_image_link": "https://res.cloudinary.com/dsziw3o2b/image/upload/v1745259317/download_8_kwlcgq.jpg",
+    "menu_pdf_link": "https://example.com/pdfs/sushi_haven_menu.pdf",
+    "order": {
+      "menu_items": [
+        {
+          "item_id": "m401",
+          "name": "Dragon Roll",
+          "price": 15.99,
+          "category": "Main",
+          "image_link": "https://res.cloudinary.com/dsziw3o2b/image/upload/v1745258607/download_phljv2.jpg"
+        },
+        {
+          "item_id": "m402",
+          "name": "Miso Soup",
+          "price": 3.99,
+          "category": "Appetizer",
+          "image_link": "https://res.cloudinary.com/dsziw3o2b/image/upload/v1745258912/download_6_z62i12.jpg"
+        },
+        {
+          "item_id": "m403",
+          "name": "Green Tea Mochi",
+          "price": 5.50,
+          "category": "Dessert",
+          "image_link": "https://res.cloudinary.com/dsziw3o2b/image/upload/v1745258444/istockphoto-469351716-2048x2048_thf6vz.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "restaurant_id": 5,
+    "name": "Taco Fiesta",
+    "description": "Taco Fiesta is a lively celebration of Mexican flavors, bringing the spirit of a street food market to Cityville’s Southside. This vibrant eatery is known for its bold, authentic tacos, sizzling fajitas, and zesty margaritas, served in a colorful setting with festive decor. The open kitchen buzzes with energy as chefs grill fresh carne asada and simmer rich mole sauces. Signature tacos include the al pastor, with marinated pork and pineapple, and the fish taco, topped with creamy chipotle slaw. Made with house-made tortillas and fresh ingredients, every bite bursts with flavor. The menu also offers enchiladas, tamales, and vegetarian options like grilled cactus tacos. Guests can sip on classic margaritas or try the hibiscus-infused agua fresca for a refreshing twist. The lively atmosphere, complete with papel picado decorations and upbeat mariachi music, makes Taco Fiesta perfect for families, friends, or festive gatherings. The staff is warm and welcoming, ensuring a fun dining experience. Taco Fiesta also hosts weekly salsa dancing nights and offers catering for events. Committed to community, the restaurant sources ingredients from local farms and supports local charities. Whether you’re craving a quick taco or a full Mexican feast, Taco Fiesta delivers a vibrant, flavorful experience that transports you to the heart of Mexico. With its bold flavors, festive vibe, and dedication to quality, this restaurant is a go-to spot for anyone looking to spice up their dining routine.",
+    "thumbnail": "https://res.cloudinary.com/dsziw3o2b/image/upload/v1745257718/clay-banks-1Uj0HmqQFGk-unsplash_t8etfa.jpg",
+    "phone_number": "(555) 789-1234",
+    "location": "202 Cedar Lane, Southside, Cityville, CA 90210",
+    "image_links": [
+      "https://res.cloudinary.com/dsziw3o2b/image/upload/v1745257983/robert-bye-4UGlx_OXqgs-unsplash_nrsf1d.jpg",
+      "https://res.cloudinary.com/dsziw3o2b/image/upload/v1745257977/alex-haney-CAhjZmVk5H4-unsplash_vn3dyu.jpg"
+    ],
+    "total_reviews": 134,
+    "user_reviews": [
+      {
+        "user_id": "u133",
+        "username": "TacoTitan",
+        "review": "Al pastor tacos are amazing! So much flavor.",
+        "stars": 5
+      },
+      {
+        "user_id": "u134",
+        "username": "SpicySalsa",
+        "review": "Margaritas were great, but the service was slow.",
+        "stars": 4
+      },
+      {
+        "user_id": "u135",
+        "username": "FiestaFan",
+        "review": "Decent tacos, but I’ve had better elsewhere.",
+        "stars": 3
+      }
+    ],
+    "video_links": [
+      {
+        "link": "https://res.cloudinary.com/dsziw3o2b/video/upload/v1745259138/854750-hd_1920_1080_25fps_lo5aqt.mp4",
+        "title": "Taco Time",
+        "subtitle": "See our chefs grill up fresh tacos."
+      },
+      {
+        "link": "https://res.cloudinary.com/dsziw3o2b/video/upload/v1745259116/3768941-hd_1920_1080_25fps_kv2lao.mp4",
+        "title": "Fiesta Vibes",
+        "subtitle": "Feel the festive energy of our restaurant."
+      }
+    ],
+    "menu_image_link": "https://res.cloudinary.com/dsziw3o2b/image/upload/v1745259317/download_8_kwlcgq.jpg",
+    "menu_pdf_link": "https://example.com/pdfs/taco_fiesta_menu.pdf",
+    "order": {
+      "menu_items": [
+        {
+          "item_id": "m501",
+          "name": "Al Pastor Taco",
+          "price": 3.99,
+          "category": "Main",
+          "image_link": "https://res.cloudinary.com/dsziw3o2b/image/upload/v1745258756/360_F_27579652_tM7V4fZBBw8RLmZo0Bi8WhtO2EosTRFD_hzqs3b.jpg"
+        },
+        {
+          "item_id": "m502",
+          "name": "Guacamole and Chips",
+          "price": 6.50,
+          "category": "Appetizer",
+          "image_link": "https://res.cloudinary.com/dsziw3o2b/image/upload/v1745258893/download_7_ti13tv.jpg"
+        },
+        {
+          "item_id": "m503",
+          "name": "Churros",
+          "price": 4.99,
+          "category": "Dessert",
+          "image_link": "https://res.cloudinary.com/dsziw3o2b/image/upload/v1745258449/istockphoto-161735861-612x612_xiwxhy.jpg"
+        }
+      ]
+    }
+  }
+]
